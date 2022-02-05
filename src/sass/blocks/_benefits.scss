@@ -1,0 +1,32 @@
+.benefits{
+  background-color: #f6f6f6;
+  padding: 70px 0 65px 0;
+  &__title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center;
+  }
+  &__wrapper{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+  }
+  &__card{
+    text-align: center;
+  }
+  &__subtitle{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d0d0d;
+  }
+  &__descr{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #0d0d0d;
+    width:270px;
+  }
+}
