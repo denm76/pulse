@@ -1,12 +1,6 @@
 .benefits{
   background-color: #f6f6f6;
   padding: 70px 0 65px 0;
-  &__title{
-    font-size: 30px;
-    font-weight: 700;
-    color: #0d0d0d;
-    text-align: center;
-  }
   &__wrapper{
     display: flex;
     margin-top: 60px;
@@ -28,5 +22,9 @@
     font-weight: 300;
     color: #0d0d0d;
     width:270px;
+    a{
+      color: red;
+      text-decoration: underline;
+    }
   }
 }
